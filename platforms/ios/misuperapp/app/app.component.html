@@ -1,0 +1,8 @@
+<StackLayout>
+    <Label text="POSTS (⌐■_■)" class="title"></Label>
+    <ListView [items]="posts">
+        <template let-item="item" let-i="index" let-odd="odd" let-even="even">
+                <Label  class="listado"  [class.odd]="odd" [class.even]="even" [text]='item.id + ": " + item.title'></Label>
+        </template>
+    </ListView>
+</StackLayout>

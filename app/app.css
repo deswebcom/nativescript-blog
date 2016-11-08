@@ -1,0 +1,25 @@
+﻿@import '~/css/core.light.css'; 
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    background-color: orange;
+    color:white;
+}
+
+.odd{
+    background-color: aqua;
+}
+.even{
+    background-color: cadetblue;
+}
+
+
+.listado{
+    padding: 15%;
+}
+
+.body{
+    padding: 15%;
+    background-color: grey;
+}
